@@ -1,0 +1,20 @@
+.background {
+        background-image: url("./../../assets/images/9-95168_night-sky-full-hd-wallpapers-high-resolution-wallpaper.jpg");
+        width: 100%;
+        height: 100%;
+        display: flex !important;
+        flex-direction: column;
+        justify-content: center !important;
+        align-items: center;
+        // background: no-repeat;
+    // background-color: #cccccc;
+}
+
+.button {
+    width: 30vh !important;
+    height: 5vh !important;
+    background-color: #3F5267 !important;
+    font-size: large !important;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif !important;
+    font: 1.2em sans-serif !important;
+} 

@@ -1,0 +1,26 @@
+<!-- This has used as the layout component. Top Nav bar and Side nav has coded here. -->
+<mat-toolbar color="primary">
+    <button type="button" mat-button (click)="drawer.toggle()">
+        <!-- Toggle sidenav -->
+        <mat-icon aria-hidden="false" aria-label="Example home icon">view_headline</mat-icon>
+    </button>
+    <span> HaulMatic Angular Interview</span>
+ </mat-toolbar>
+<mat-drawer-container class="example-container" autosize>
+    <mat-drawer #drawer class="example-sidenav" mode="side">
+        <div class="row">
+            <div mat-button class="">
+                <button class="button" mat-button [routerLink]="['/demo/json-with-table']">Page 1</button>
+            </div>
+            <div mat-button class="">
+                <button class="button" mat-button [routerLink]="['/demo/styled-div']">Page 2</button>
+            </div>
+        </div>
+    </mat-drawer>
+  
+    <div class="example-sidenav-content">
+        <!-- Router outlet for showing child routes -->
+        <router-outlet></router-outlet>
+    </div>
+  
+  </mat-drawer-container>

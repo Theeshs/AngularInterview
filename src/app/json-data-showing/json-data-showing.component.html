@@ -1,0 +1,32 @@
+<!-- Kendo Grid Start -->
+<div class="kendo">
+    <div class="kendo-g">
+        <kendo-grid
+        [kendoGridBinding]="gridData"
+        [sortable]="true"
+        [filterable]="true"
+        [height]="700"
+        [pageable]="true"
+        [pageSize]="10"
+        [loading]="loading"
+        >
+        <kendo-grid-column title="ID" field="ID" width="200"></kendo-grid-column>
+        <kendo-grid-column title="TYPE" field="TYPE" width="200"></kendo-grid-column>
+        <kendo-grid-column title="LINKS" field="LINKS" width="250"></kendo-grid-column>
+        <kendo-grid-column title="ATTRIBUTES URN" field="ATTRIBUTES URN" width="300"></kendo-grid-column>
+        <kendo-grid-column title="ATTRIBUTES CREATED AT" field="ATTRIBUTES CREATED AT" width="250"></kendo-grid-column>
+        <kendo-grid-column title="ATTRIBUTES UPDATED AT" field="ATTRIBUTES UPDATED AT" width="250"></kendo-grid-column>
+        <kendo-grid-column title="ATTRIBUTES CONTENT" field="ATTRIBUTES CONTENT" width="200"></kendo-grid-column>
+        <kendo-grid-column title="ATTRIBUTES PROPERTIES" field="ATTRIBUTES PROPERTIES" width="130"></kendo-grid-column>
+        <kendo-grid-column title="ATTRIBUTES DISPLAY POROPERTY TYPE" field="ATTRIBUTES DISPLAY POROPERTY TYPE"  width="300"></kendo-grid-column>
+        <kendo-grid-column title="ATTRIBUTESDISPLAY POROPERTY IMAGE" field="ATTRIBUTESDISPLAY POROPERTY IMAGE" width="450"></kendo-grid-column>
+        <kendo-grid-column title="AUTHERES LINK SELF" field="AUTHERES LINK SELF" width="400"></kendo-grid-column>
+        <kendo-grid-column title="AUTHORS LINK RELATED" field="AUTHORS LINK RELATED" width="400"></kendo-grid-column>
+        <kendo-grid-column title="PUBLISHERS LINK SELF" field="PUBLISHERS LINK SELF"width="400"></kendo-grid-column>
+        <kendo-grid-column title="PUBLISHERS LINK RELATED" field="PUBLISHERS LINK RELATED" width="400"></kendo-grid-column>
+        <kendo-grid-column title="LINK FIRST" field="LINK FIRST" width="400"></kendo-grid-column>
+        <kendo-grid-column title="LINK LAST" field="LINK LAST" width="400"></kendo-grid-column>
+    </kendo-grid>
+    </div>
+</div>
+<!-- Kendo Grid end -->
